@@ -9,7 +9,7 @@
      display: block;
    }
    #heddingtag{
-      font-style:italic;
+      font-style:normal;
    }
  }
  @media screen and (min-width:900px) {
