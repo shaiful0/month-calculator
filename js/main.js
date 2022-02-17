@@ -35,7 +35,7 @@ function saveMoney(){
 
   let totalBalance = document.getElementById('total-balance');
   let remainingBalance = totalBalance.innerText - saveingAmount.innerText;
-  
+  // remaining Balance
   let previousBalance = document.getElementById('rmaining-balance');
   previousBalance.innerText = remainingBalance
 
