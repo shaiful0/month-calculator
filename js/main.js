@@ -32,7 +32,7 @@ function saveMoney(){
   // seaving Amount
   let saveingAmount = document.getElementById('save-amount');
   saveingAmount.innerText = saveAmount;
-
+   // remaining amount
   let totalBalance = document.getElementById('total-balance');
   let remainingBalance = totalBalance.innerText - saveingAmount.innerText;
   // remaining Balance
