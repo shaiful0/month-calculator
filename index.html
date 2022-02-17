@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header>
+    <h1 id="heddingtag" class="text-center text-5xl mt-5"><span class="text-green-900 font-semibold italic">Month Calculator</span></h1>
+  </header>
+    <main>
+      <section class="">
+        <div id="responsive" class="grid grid-cols-2 gap-10">
+          <div class="">
+            <img class="h-auto w-full mt-5" src="money.jpg" alt="">
+          </div>
+          <div class="text-center mt-5 shadow-md bg-purple-300 rounded">
+            <h1 class=" text-3xl "><span>Income</span></h1>
+            <p class="mt-5">income: <input id="income-value" class="border-2" type="income"></p>
+            <h1 class="mt-2 text-2xl">Expenses</h1>
+            <p class="mt-5">Food: <input id="food-cost" class="border-2" type="text"></p>
+
+            <p class="mt-5">Rent: <input id="rent-cost" class="border-2" type="text"></p>
+
+            <p class="mt-5">Clothes: <input id="cloth-cost" class="border-2" type="text"></p>
+            <button onclick="calculation()" class="mt-5 rounded bg-purple-600 px-4 text-2xl">Calculate</button>
+            <p class="mt-5">Total Expenses: <span id="expenses-total">00</span></p>
+            <h1 class="mt-5">Balance:<span id="total-balance">00</span></h1>
+            <p class="mt-5">Save: <input id="save-parsent" class="border-2" type="text"><span>%</span></p>
+            <button onclick="saveMoney()" class="bg-purple-700 px-4 rounded mt-5">Save</button> 
+            <h1 class="mt-5">Saving Amount: <span id="save-amount">00</span></h1>
+            <h1 class="mt-5">Remaning Balance: <span id="rmaining-balance">00</span></h1>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+  
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
